@@ -1,0 +1,143 @@
+.formParrent {
+    background-color:rgba(70, 64, 112, 0.80);
+    padding-top: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+body {
+    background-color: F1F4FE;
+    overflow-y: hidden;
+}
+
+.mainform {
+    display: none;
+}
+
+.x-par {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.x {
+    width: 3vw;
+}
+
+.ss {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.gif {
+    position: relative;
+    width: 100vw;
+    z-index: 0;
+}
+
+.par {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+
+.login1{
+    margin-right: 1vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.title1 {
+   font-size: 2.3vw;
+   margin-bottom: 2vw;
+}
+
+.title2 {
+    font-size: 1.7vw;
+}
+
+.inputemail, .inputpass {
+    width: 50%;
+    height: 4vw;
+    margin-top: 2vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+}
+
+.inputpass {
+    margin-bottom: 1vw;
+}
+
+.checkbox {
+ height: 1.5vw;
+ width: 1.5vw;
+ margin-top: 1vw;
+ vertical-align: middle;
+}
+
+.checkparr {
+    width: 50%;
+    display: flex;
+
+}
+
+.bellowp1 {
+margin-top: 1vw;
+margin-left: 1vw;
+font-size: 1vw;
+}
+
+.bellowp2 {
+margin-top: 1vw;
+margin-left: 50%;
+font-size: 1vw;
+}
+
+.login {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.6vw;
+    border-radius: 0.3vw;
+    width: 50%;
+    height: 4vw;
+    display: block;
+    background-color: aquamarine;
+}
+
+.logout {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.ibut {
+    margin-left: 1vw;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;
+}
+
+.bigtitle {
+    margin-top: 2vw;
+    font-size: 3vw;
+    z-index: 1;
+    top: 0;
+    position: absolute;
+}
+
+.catgif {
+    z-index: 0;
+    position: relative;
+    width: 100%;
+}
