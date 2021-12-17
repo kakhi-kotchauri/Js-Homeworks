@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "smt",
+  "main": "task1.js",
+  "scripts": {
+    "test": "testest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
